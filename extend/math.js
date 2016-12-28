@@ -4,7 +4,7 @@ Math.sum = function (arr, inc) {
         placeholder,
         placeholder_high,
         placeholder_low,
-        i = 0;
+        i = 1e8;
     inc = inc || 1;
     if (typeof arr === "string" && arr.match(/\.\./g)) {
         placeholder = arr.split('..');
@@ -13,8 +13,10 @@ Math.sum = function (arr, inc) {
         while (placeholder_low <= placeholder_high) {
             sum += Number(placeholder_low);
             placeholder_low -= -inc;
-            if (i++ > 1e16) {
-                return false;
+            i -= 1;
+            if (i < 0) {
+                window.console.log('timeout');
+                return sum;
             }
         }
     } else if (typeof arr === "string") {
