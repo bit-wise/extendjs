@@ -1,0 +1,14 @@
+{
+    "outputs": [
+        {
+            "inputs": [
+                "string.js",
+                "math.js"
+            ],
+            "output": "../dist/extend.min.js",
+            "generateMap": true,
+            "mangle": true,
+            "isolate": false
+		}
+	]
+}
