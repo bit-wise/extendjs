@@ -84,6 +84,18 @@ Math.base = function (value, from_base, to_base) {
     return new_value || '0';
 };
 
+// GRAVITY
+Math.G = {
+    m: 9.80665,
+    ft: 32.1740
+};
+
+// FORCE
+Math.force = function (mass, acc) {
+    'use strict';
+    return mass / acc;
+};
+
 // INFINITE SUM (1+2+3+...∞)
 Math.ISUM = -1 / 12;
 
