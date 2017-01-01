@@ -1,2 +1,2 @@
 # extendjs
-Extension methods upon core JS
+Extension properties and methods upon core Javascript
