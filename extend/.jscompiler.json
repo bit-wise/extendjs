@@ -2,6 +2,7 @@
     "outputs": [
         {
             "inputs": [
+                "extend.js",
                 "strings/capitalize.js",
                 "maths/base.js",
                 "maths/factorial.js",
@@ -9,6 +10,7 @@
                 "maths/gravity.js",
                 "maths/infinite_sum.js",
                 "maths/phi.js",
+                "maths/rand.js",
                 "maths/sum.js",
                 "maths/taxi_cab.js"
             ],
