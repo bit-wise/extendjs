@@ -1,0 +1,12 @@
+{
+    "name": "ExtendJS",
+    "version": "0.0.1",
+    "main": "dist/extend.min.js",
+    "ignore": [
+        ".gitignore",
+        ".git",
+        "extend",
+        "bower.json",
+        "README.md"
+    ]
+}
