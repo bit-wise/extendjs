@@ -1,6 +1,6 @@
 {
-    "name": ".extendjs",
-    "version": "0.0.2",
+    "name": "_extendjs",
+    "version": "0.0.21",
     "main": "extend/extend.js",
     "ignore": [
         ".gitignore",
