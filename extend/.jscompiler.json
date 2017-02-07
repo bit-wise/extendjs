@@ -7,7 +7,7 @@
                 "arrays/first.js",
                 "arrays/last.js",
 
-                "strings/capitalize.js",
+                "general/ready.js",
 
                 "maths/base.js",
                 "maths/factorial.js",
@@ -17,7 +17,9 @@
                 "maths/phi.js",
                 "maths/rand.js",
                 "maths/sum.js",
-                "maths/taxi_cab.js"
+                "maths/taxi_cab.js",
+
+                "strings/capitalize.js"
             ],
             "output": "../dist/extend.min.js",
             "generateMap": true,

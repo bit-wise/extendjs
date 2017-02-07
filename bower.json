@@ -1,13 +1,13 @@
 {
     "name": "js.extend",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "main": "extend/extend.js",
     "description": "Extend core javascript",
     "ignore": [
-        ".gitignore",
         ".git",
-        "extend",
+        ".gitignore",
         "bower.json",
+        "extend",
         "README.md"
     ],
     "authors": [

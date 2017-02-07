@@ -3,6 +3,8 @@ window.ExtJS = (function () {
     return {};
 }());
 window.ExtJS.gv = {
+    arrays: {},
+    general: {},
     maths: {},
     strings: {}
 };
