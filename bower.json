@@ -1,6 +1,6 @@
 {
     "name": "js.extend",
-    "version": "0.0.25",
+    "version": "0.0.3",
     "main": "extend/extend.js",
     "description": "Extend core javascript",
     "ignore": [

@@ -3,7 +3,12 @@
         {
             "inputs": [
                 "extend.js",
+
+                "arrays/first.js",
+                "arrays/last.js",
+
                 "strings/capitalize.js",
+
                 "maths/base.js",
                 "maths/factorial.js",
                 "maths/force.js",
